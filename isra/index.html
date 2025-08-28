@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Con amor y un poquito de cursilería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="letter-card">
+            <div class="header">
+                <div class="heart-animation">💕</div>
+                <h1 class="title">Para mi lomasturvas</h1>
+                <div class="decorative-line"></div>
+            </div>
+            
+            <div class="letter-content">
+                <p class="opening">
+                    No sé qué pasará mañana, ni en un mes, ni en un año, pero sí sé que quiero que sigas aquí, conmigo, en todas las versiones que tenga de mi vida.
+                </p>
+                
+                <p class="middle">
+                    Porque contigo todo es mejor, todo vibra distinto, todo tiene más sentido.
+                </p>
+                
+                <p class="gratitude">
+                    Así que, mi lomasturvas, gracias por existir y por cruzarte en mi camino. Eres mi lugar seguro y mi mejor aventura.
+                </p>
+            </div>
+            
+            <div class="signature">
+                <p class="closing">Con amor (y un poquito de cursilería que me salió hoy),</p>
+                <p class="name">chalito el frifayano</p>
+                <div class="hearts">
+                    <span class="heart heart-1">♥</span>
+                    <span class="heart heart-2">♥</span>
+                    <span class="heart heart-3">♥</span>
+                </div>
+            </div>
+            
+            <div class="floating-elements">
+                <div class="particle particle-1">✨</div>
+                <div class="particle particle-2">💫</div>
+                <div class="particle particle-3">⭐</div>
+                <div class="particle particle-4">✨</div>
+                <div class="particle particle-5">💫</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Añadir un poco de interactividad
+        document.querySelector('.letter-card').addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-10px) rotateX(5deg)';
+        });
+        
+        document.querySelector('.letter-card').addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0) rotateX(0)';
+        });
+    </script>
+</body>
+</html>
